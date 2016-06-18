@@ -43,7 +43,7 @@
   "sameAs": [
     "http://www.facebook.com/jyrone.parker.1",
     "http://instagram.com/mastashake08",
-    "http://www.linkedin.com/in/jyroneparker",
+    "http://www.linkedin.com/in/jyroneparker"
 
   ]
 }
