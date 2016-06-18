@@ -5,7 +5,7 @@ namespace App\Http\Controllers;
 use Illuminate\Http\Request;
 use Twilio;
 use App\Http\Requests;
-
+use App\Events\PrankSentEvent;
 class TwilioController extends Controller
 {
     //
@@ -20,11 +20,7 @@ try {
     "source" => $request->stripeToken,
     "description" => "https://prankforadollar.com prank call."
     ));
-    $twilio = new \Aloha\Twilio\Twilio(env('TWILIO_SID'), env('TWILIO_TOKEN'), env('TWILIO_FROM'));
-    $twilio->call($request->phone, function ($message) use($request) {
-          $message->play('http://www.xamuel.com/blank-mp3-files/2sec.mp3', ['loop' => 1]);
-      $message->say($request->message);
-    });
+    event(new PrankSentEvent($request));
     return view('message-complete');
 } catch(\Stripe\Error\Card $e) {
   // The card has been declined
