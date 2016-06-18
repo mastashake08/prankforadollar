@@ -22,6 +22,7 @@ try {
     ));
     $twilio = new \Aloha\Twilio\Twilio(env('TWILIO_SID'), env('TWILIO_TOKEN'), env('TWILIO_FROM'));
     $twilio->call($request->phone, function ($message) use($request) {
+          $message->play('http://www.xamuel.com/blank-mp3-files/2sec.mp3', ['loop' => 1]);
       $message->say($request->message);
     });
     return view('message-complete');
