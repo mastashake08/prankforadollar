@@ -19,3 +19,6 @@ Route::post('make-call', 'TwilioController@makeCall');
 Route::get('terms', function(){
   return view('terms');
 });
+Route::get('about-developer', function(){
+  return view('developer');
+});
