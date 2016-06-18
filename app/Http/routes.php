@@ -14,3 +14,8 @@
 Route::get('/', function () {
     return view('welcome');
 });
+
+Route::post('make-call', 'TwilioController@makeCall');
+Route::get('terms', function(){
+  return view('terms');
+});
