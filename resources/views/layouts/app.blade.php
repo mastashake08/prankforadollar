@@ -8,12 +8,12 @@
     <meta property="og:type"               content="website" />
     <meta property="og:title"              content="Prank For A Dollar" />
     <meta property="og:description"        content="Send Prank Calls To Anyone for $1" />
-    <meta property="og:image"              content="http://store-images.s-microsoft.com/image/apps.53967.13510798886615098.14489ccb-ff30-4440-923a-4498f16c7da2.32381aac-d12b-465c-96da-84a1a8c7fc5a" />
+    <meta property="og:image"              content="https://en.gravatar.com/userimage/70717632/53adbdecac04d4ffbe3449993c901a73.jpeg" />
     <meta name="twitter:card" content="summary" />
     <meta name="twitter:site" content="@mastashake08" />
     <meta name="twitter:title" content="Prank For A Dollar" />
     <meta name="twitter:description" content="Send Prank Calls To Anyone for $1" />
-    <meta name="twitter:image" content="http://store-images.s-microsoft.com/image/apps.53967.13510798886615098.14489ccb-ff30-4440-923a-4498f16c7da2.32381aac-d12b-465c-96da-84a1a8c7fc5a" />
+    <meta name="twitter:image" content="https://en.gravatar.com/userimage/70717632/53adbdecac04d4ffbe3449993c901a73.jpeg" />
     <title>Prank For A Dollar</title>
 
     <!-- Fonts -->
