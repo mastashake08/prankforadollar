@@ -6,7 +6,7 @@ use App\Events\PrankSentEvent;
 use Illuminate\Queue\InteractsWithQueue;
 use Illuminate\Contracts\Queue\ShouldQueue;
 
-class PrankSentEventListener implements ShouldQueue
+class PrankSentEventListener 
 {
     /**
      * Create the event listener.
