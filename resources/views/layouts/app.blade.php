@@ -4,6 +4,50 @@
     <meta charset="utf-8">
     <meta http-equiv="X-UA-Compatible" content="IE=edge">
     <meta name="viewport" content="width=device-width, initial-scale=1">
+    <script type="application/ld+json">
+    {
+      "@context": "http://schema.org",
+      "@type": "WebSite",
+      "name": "Prank For A Dollar",
+      "alternateName": "Send prank calls for $1",
+      "url": "https://www.prankforadollar.com"
+    }
+    </script>
+    <script type="application/ld+json">
+    {
+  "@context": "http://schema.org",
+  "@type": "Organization",
+  "url": "https://www.prankforadollar.com",
+  "contactPoint": [
+    { "@type": "ContactPoint",
+      "telephone": "+1-859-402-4863",
+      "contactType": "customer service"
+    }
+    ]
+  }
+  </script>
+  <script type="application/ld+json">
+  {
+  "@context": "http://schema.org",
+  "@type": "Organization",
+  "url": "https://www.prankforadollar.com",
+  "logo": "https://en.gravatar.com/userimage/70717632/53adbdecac04d4ffbe3449993c901a73.jpeg"
+}
+  </script>
+  <script type="application/ld+json">
+{
+  "@context": "http://schema.org",
+  "@type": "Person",
+  "name": "Jyrone Parker",
+  "url": "http://www.jyroneparker.com",
+  "sameAs": [
+    "http://www.facebook.com/jyrone.parker.1",
+    "http://instagram.com/mastashake08",
+    "http://www.linkedin.com/in/jyroneparker",
+
+  ]
+}
+</script>
     <meta property="og:url"                content="https://www.prankforadollar.com" />
     <meta property="og:type"               content="website" />
     <meta property="og:title"              content="Prank For A Dollar" />
