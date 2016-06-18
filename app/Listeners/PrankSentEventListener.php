@@ -6,7 +6,7 @@ use App\Events\PrankSentEvent;
 use Illuminate\Queue\InteractsWithQueue;
 use Illuminate\Contracts\Queue\ShouldQueue;
 
-class PrankSentEventListener 
+class PrankSentEventListener
 {
     /**
      * Create the event listener.
@@ -34,5 +34,12 @@ class PrankSentEventListener
           $message->play('http://clipart.usscouts.org/ScoutDoc/SeaExplr/WavFiles/SHIPBELL/TBELL2.WAV', ['loop' => 1]);
           $message->say('You have just been pranked by prank for a dollar dot com!');
         });
+
+        \Stripe\Stripe::setApiKey(env('STRIPE_SECRET'));
+        $ch = \Stripe\Charge::retrieve($event->charge->id);
+        $ch->capture();
+
+
+
     }
 }

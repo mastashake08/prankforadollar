@@ -10,17 +10,18 @@ use Illuminate\Http\Request;
 class PrankSentEvent extends Event
 {
     use SerializesModels;
-    public $request;
+    public $request, $charge;
 
     /**
      * Create a new event instance.
      *
      * @return void
      */
-    public function __construct(Request $request)
+    public function __construct(Request $request, $charge)
     {
         //
         $this->request = $request;
+        $this->charge = $charge;
     }
 
     /**

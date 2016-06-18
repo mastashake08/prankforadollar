@@ -18,9 +18,10 @@ try {
     "amount" => 100, // amount in cents, again
     "currency" => "usd",
     "source" => $request->stripeToken,
-    "description" => "https://prankforadollar.com prank call."
+    "description" => "https://prankforadollar.com prank call.",
+    "capture" => false
     ));
-    event(new PrankSentEvent($request));
+    event(new PrankSentEvent($request, $charge));
     return view('message-complete');
 } catch(\Stripe\Error\Card $e) {
   // The card has been declined
