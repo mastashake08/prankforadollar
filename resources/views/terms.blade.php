@@ -23,7 +23,7 @@ obligation or duty of Application user under this Agreement or under
 applicable law, (3) (4) (5)] [other enumerated categories of claims
 and losses], in each case whether or not caused by the
 negligence of Jyrone Parker or any other Indemnified Party and whether or
-not the relevant Claim has merit.”
+not the relevant Claim has merit.” 
                 </div>
             </div>
         </div>
