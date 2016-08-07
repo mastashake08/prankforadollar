@@ -22,7 +22,7 @@ Route::get('terms', function(){
 Route::get('about-developer', function(){
   return view('developer');
 });
-Route::get('xml', function(){
+Route::any('xml', function(){
 
 $string =  <<<XML
 <Response>
