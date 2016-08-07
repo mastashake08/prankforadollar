@@ -22,3 +22,16 @@ Route::get('terms', function(){
 Route::get('about-developer', function(){
   return view('developer');
 });
+Route::get('xml', function(){
+
+$string =  <<<XML
+<Response>
+    <Say voice="woman" language="en">The police are idiots! Do us all a favor and just quit! You are a waste of air and tax dollars!</Say>
+    <Record timeout="10" transcribe="true" />
+</Response>
+XML;
+
+$xml = new SimpleXMLElement($string);
+
+return $xml->asXML();
+});
