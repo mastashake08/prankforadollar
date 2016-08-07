@@ -33,5 +33,5 @@ XML;
 
 $xml = new SimpleXMLElement($string);
 
-return $xml->asXML();
+echo $xml->asXML();
 });
